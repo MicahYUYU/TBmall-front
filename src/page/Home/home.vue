@@ -61,7 +61,8 @@
       </div>
     </div>
 
-    <el-dialog
+    <!-- 去除了Xpay的弹窗 -->
+    <!-- <el-dialog
       title="通知"
       :visible.sync="dialogVisible"
       width="30%"
@@ -70,7 +71,7 @@
       <span slot="footer" class="dialog-footer">
         <el-button type="primary" @click="dialogVisible = false">知道了</el-button>
       </span>
-    </el-dialog>
+    </el-dialog> -->
   </div>
 </template>
 <script>
